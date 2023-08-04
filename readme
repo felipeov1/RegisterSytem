@@ -1,0 +1,7 @@
+Compisção tabela do Banco de dados MySql:
+
+id INT PK NN AI
+nome VARCHAR(45) NN
+email VARCHAR(110) NN
+senha VARCHAR(45) NN
+
