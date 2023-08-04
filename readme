@@ -1,12 +1,12 @@
 Compisção tabela do Banco de dados MySql:
 
-utf8mb4
-utf8mb4-unicode_ci
+CREATE TABLE `cadastro-usuarios`.`usuarios` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(45) NOT NULL,
+  `email` VARCHAR(110) NOT NULL,
+  `senha` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_unicode_ci;
 
-
-TABLE NAME: usuarios
-
-id INT PK NN AI
-nome VARCHAR(45) NN
-email VARCHAR(110) NN
-senha VARCHAR(45) NN
